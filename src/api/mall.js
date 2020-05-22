@@ -1,10 +1,7 @@
-import axios from '@/utils/axios';
-// console.log(axios);
+import axios from '@/utils/request';
 
 const getSwiperdata = () => {
   return axios.get('/api/public/v1/home/swiperdata');
 };
-
-// console.log(getSwiperdata);
 
 export { getSwiperdata };
