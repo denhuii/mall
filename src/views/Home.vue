@@ -11,6 +11,12 @@ import HelloWorld from '@/components/HelloWorld.vue';
 
 export default {
   name: 'Home',
+  created() {
+    console.log('father created');
+  },
+  mounted() {
+    console.log('father mounted');
+  },
   components: {
     HelloWorld,
   },

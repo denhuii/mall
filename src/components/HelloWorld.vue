@@ -1,20 +1,26 @@
 <template>
-  <div><van-button type="danger">危险按钮</van-button></div>
+  <div>
+    <van-button type="danger">危险按钮</van-button>
+  </div>
 </template>
 
 <script>
-import { getSwiperdata } from '@/api/mall';
-console.log(getSwiperdata);
+// import { getSwiperdata } from '@/api/mall';
+// console.log(getSwiperdata);
 // import axios from '@/utils/axios';
 export default {
   name: 'HelloWorld',
   props: {
     msg: String,
   },
+  created() {
+    console.log('son created');
+  },
   mounted() {
-    getSwiperdata().then(res => {
-      console.log(res);
-    });
+    console.log('son mounted');
+    // getSwiperdata().then(res => {
+    //   console.log(res);
+    // });
     // console.log(axios);
 
     // axios
