@@ -1,6 +1,7 @@
 <template>
   <div>
     <van-button type="danger">危险按钮</van-button>
+    <br />
     <van-button type="danger">伟哥牛批</van-button>
   </div>
 </template>
