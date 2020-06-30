@@ -1,5 +1,10 @@
 <template>
-  <div><van-button type="danger">危险按钮</van-button></div>
+  <div>
+    <van-button type="danger">危险按钮</van-button><br /><van-button
+      type="danger"
+      >危险按钮</van-button
+    ><br /><van-button type="danger">危险按钮</van-button><br />
+  </div>
 </template>
 
 <script>
