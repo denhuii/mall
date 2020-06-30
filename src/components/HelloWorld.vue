@@ -1,6 +1,7 @@
 <template>
   <div>
     <van-button type="danger">点击按钮</van-button>
+    <van-button type="danger">测试</van-button>
   </div>
 </template>
 
