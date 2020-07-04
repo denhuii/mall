@@ -1,6 +1,6 @@
 <template>
   <div>
-    你在跟我开什么玩笑
+    我觉得很难受
   </div>
 </template>
 
