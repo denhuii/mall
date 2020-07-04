@@ -1,15 +1,12 @@
 <template>
   <div>
-    <van-button type="danger">危险按钮</van-button><br /><van-button
-      type="danger"
-      >危险按钮</van-button
-    ><br /><van-button type="danger">危险按钮</van-button><br />
+    你在跟我开什么玩笑
   </div>
 </template>
 
 <script>
-import { getSwiperdata } from '@/api/mall';
-console.log(getSwiperdata);
+// import { getSwiperdata } from '@/api/mall';
+// console.log(getSwiperdata);
 // import axios from '@/utils/axios';
 export default {
   name: 'HelloWorld',
@@ -17,11 +14,10 @@ export default {
     msg: String,
   },
   mounted() {
-    getSwiperdata().then(res => {
-      console.log(res);
-    });
+    // getSwiperdata().then(res => {
+    //   console.log(res);
+    // });
     // console.log(axios);
-
     // axios
     //   .get('http://localhost:36742/api/public/v1/home/swiperdata')
     //   .then(res => {
