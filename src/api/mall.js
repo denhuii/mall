@@ -4,4 +4,8 @@ const getSwiperdata = () => {
   return axios.get('/api/public/v1/home/swiperdata');
 };
 
-export { getSwiperdata };
+const getQiniuToken = () => {
+  return axios.get('/qiniutoken');
+};
+
+export { getSwiperdata, getQiniuToken };

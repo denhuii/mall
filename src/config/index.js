@@ -1,6 +1,6 @@
 export default {
   baseUrl: {
-    dev: 'http://localhost:36742',
-    pro: 'http://localhost:36742',
+    dev: 'http://192.168.10.10:3000',
+    pro: 'http://192.168.10.10:3000',
   },
 };
