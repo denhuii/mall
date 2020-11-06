@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <van-uploader :after-read="afterRead" v-model="fileList" />
+    <!-- <van-uploader :after-read="afterRead" v-model="fileList" /> -->
     <!-- <van-button type="default" @click="handel">默认按钮</van-button> -->
   </div>
 </template>

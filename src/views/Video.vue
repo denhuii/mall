@@ -1,14 +1,14 @@
 <template>
   <div>
-    <video-player
+    <!-- <video-player
       class="video-player-box"
       ref="videoPlayer"
       :options="playerOptions"
       :playsinline="true"
       customEventName="customstatechangedeventname"
     >
-    </video-player>
-    <video src="http://116.63.145.106:8888/file/video.mp4" controls="controls">
+    </video-player> -->
+    <video src="https://doc.denhuii.com/api/file/video.mp4" controls="controls">
       <!-- http://116.63.145.106:8888/file/video.mp4 -->
       您的浏览器不支持 video 标签。
     </video>
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import { videoPlayer } from 'vue-video-player';
+// import { videoPlayer } from 'vue-video-player';
 import 'video.js/dist/video-js.css';
 export default {
   data() {
@@ -45,7 +45,7 @@ export default {
     },
   },
   components: {
-    videoPlayer,
+    // videoPlayer,
   },
 };
 </script>
