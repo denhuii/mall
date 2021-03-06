@@ -1,34 +1,20 @@
 <template>
   <div>
-    <test class="cell" />
+    <svg-icon class="arrow_right" icon-class="rightArrow" />
   </div>
 </template>
 
 <script>
-import test from '@/assets/icon/information.svg';
 export default {
   data() {
-    return {
-      text: '',
-      isShow: false,
-    };
+    return {};
   },
 
   watch: {},
   mounted() {},
   computed: {},
-  components: {
-    test,
-  },
+  components: {},
 };
 </script>
 
-<style lang="less" scoped>
-.cell {
-  width: 20px;
-  height: 20px;
-  path {
-    fill: green;
-  }
-}
-</style>
+<style lang="less" scoped></style>
