@@ -1,17 +1,11 @@
 <template>
   <div>
-    <video
-      src="https://doc.denhuii.com/api/file/IPX-557.mp4"
-      controls="controls"
-      v-if="isShow"
-    >
-      您的浏览器不支持 video 标签。
-    </video>
-    <input type="text" v-model="text" />
+    <test class="cell" />
   </div>
 </template>
 
 <script>
+import test from '@/assets/icon/information.svg';
 export default {
   data() {
     return {
@@ -20,18 +14,21 @@ export default {
     };
   },
 
-  watch: {
-    text(x) {
-      console.log(x);
-      if (x == '8785452') {
-        this.isShow = true;
-      }
-    },
-  },
+  watch: {},
   mounted() {},
   computed: {},
-  components: {},
+  components: {
+    test,
+  },
 };
 </script>
 
-<style lang="less" scoped></style>
+<style lang="less" scoped>
+.cell {
+  width: 20px;
+  height: 20px;
+  path {
+    fill: green;
+  }
+}
+</style>
