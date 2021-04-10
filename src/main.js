@@ -3,6 +3,7 @@ import App from './App.vue';
 import router from './router';
 import store from './store';
 import _ from 'lodash';
+import '@/assets/icon';
 import './vant';
 
 Vue.prototype._ = _;
