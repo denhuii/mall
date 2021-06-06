@@ -22,6 +22,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "view" */ '../views/Video.vue'),
   },
+  {
+    path: '/calendar',
+    name: 'Calendar',
+    component: () =>
+      import(/* webpackChunkName: "view" */ '../views/Calendar/index.vue'),
+  },
 ];
 
 const router = new VueRouter({
